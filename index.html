@@ -121,7 +121,27 @@
         cursor: pointer;        
         background: transparent;
     }
+    
+     @media screen and (max-width: 375px ) {
+    .container {
+        display: grid;
+        position: relative;
+    }
 
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    } 
+   }
 
 
 </style>
